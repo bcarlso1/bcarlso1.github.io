@@ -1,0 +1,145 @@
+body {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+/* *************
+JUMBOTRON & NAV
+********** */
+
+.jumbotron {
+    background-image: 
+        linear-gradient(rgba(255, 215, 0, 0.6), rgb(255, 140, 0, 0.7)),
+        url('wood.jpg');
+    background-position: left;
+    background-size: cover;
+    color: black;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.display-4 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.display-4,
+.lead,
+.jumbotron p,
+.btn {
+    text-align: center;
+    align-content: center;
+}
+
+.jumbotron p {
+    font-size: 28px;
+}
+
+.lead {
+    font-size: 30px;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    width: 200px;
+    background-image: url('wood.jpg');
+    background-size: cover;
+    border-radius: 0%;
+    align-content: center;
+    border: 0;
+    font-size: 30px;
+    padding: 5px;
+}
+.nav, .nav-tabs {
+    background-image: 
+        linear-gradient(rgba(0, 0, 128, 0.6), rgba(119,136,153, 0.3)),    
+        url('wood.jpg');  
+    background-size: cover;
+    border-bottom: none;
+    border-left: 7px solid #989898;
+}
+
+.nav-item {
+    border-right: 7px solid #989898;
+    border-top: 4px solid #989898;
+    border-bottom: none;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+/* ****************
+PROJECTS
+*************** */
+
+.card {
+    display: inline-block;
+    align-content: center;
+    margin: 5px;
+}
+
+
+#projects {
+    align-content: center;
+    background-image: 
+    linear-gradient(rgba(0, 0, 128, 0.6), rgba(119,136,153, 0.3)),
+    url('wood.jpg');
+    border-top: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* ****************
+SKILLS
+*************** */
+ 
+#skills li {
+    height: 140px;
+    font-size: 50px;
+    list-style-type: none;
+}
+
+#skills {
+    background-image: 
+        linear-gradient(rgba(119,136,153, 0.3), rgba(0, 0, 128, 0.6)),
+        url('wood.jpg');
+    background-size: cover;
+    color: white;
+    padding: 10px;
+}
+
+/* *****************
+FOOTER
+************* */
+
+#in {
+    float: right;
+}
+
+#copy {
+    float: left;
+}
+
+#github {
+    float: right;
+}
+
+svg {
+    margin-right: 20px;
+}
+
+footer {
+ 
+    background-image: 
+        linear-gradient(rgba(255, 215, 0, 0.6), rgb(255, 140, 0, 0.7)),  
+        url('wood.jpg');
+    background-size: cover;
+    font-size: 30px;
+    padding: 10px;
+    height: 70px;
+}
+
