@@ -96,10 +96,12 @@ PROJECTS
     display: inline-block;
     align-content: center;
     margin: 5px;
+    width: 300px;
 }
 
 .card-title {
     font-weight: bold;
+    font-size: 26px;
 }
 
 #projects {
