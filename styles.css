@@ -88,6 +88,15 @@ JUMBOTRON & NAV
     color: gold;
 }
 
+img {
+    margin-right: 5px;
+    border-radius: 5%;
+}
+
+a {
+    color: black;
+}
+
 /* ****************
 PROJECTS
 *************** */
@@ -130,7 +139,7 @@ SKILLS
 }
 
 #basics {
-    background-image: url('wood2.jpeg');
+    background-image: url('wood2.jpg');
     font-size: 50px;
     font-weight: bold;
     color: white;
@@ -140,7 +149,7 @@ SKILLS
 }
 
 #more {
-    background-image: url('wood3.jpeg');
+    background-image: url('wood3.jpg');
     font-size: 50px;
     font-weight: bold;
     color: white;
